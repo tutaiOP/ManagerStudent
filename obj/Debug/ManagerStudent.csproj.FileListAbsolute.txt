@@ -1,0 +1,10 @@
+D:\Phuong Vy\ManagerStudent\bin\Debug\ManagerStudent.exe.config
+D:\Phuong Vy\ManagerStudent\bin\Debug\ManagerStudent.exe
+D:\Phuong Vy\ManagerStudent\bin\Debug\ManagerStudent.pdb
+D:\Phuong Vy\ManagerStudent\obj\Debug\ManagerStudent.csproj.AssemblyReference.cache
+D:\Phuong Vy\ManagerStudent\obj\Debug\ManagerStudent.GUI.LoginForm.resources
+D:\Phuong Vy\ManagerStudent\obj\Debug\ManagerStudent.Properties.Resources.resources
+D:\Phuong Vy\ManagerStudent\obj\Debug\ManagerStudent.csproj.GenerateResource.cache
+D:\Phuong Vy\ManagerStudent\obj\Debug\ManagerStudent.csproj.CoreCompileInputs.cache
+D:\Phuong Vy\ManagerStudent\obj\Debug\ManagerStudent.exe
+D:\Phuong Vy\ManagerStudent\obj\Debug\ManagerStudent.pdb
