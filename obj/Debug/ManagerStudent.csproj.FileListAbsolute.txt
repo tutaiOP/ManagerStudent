@@ -8,3 +8,4 @@ D:\Phuong Vy\ManagerStudent\obj\Debug\ManagerStudent.csproj.GenerateResource.cac
 D:\Phuong Vy\ManagerStudent\obj\Debug\ManagerStudent.csproj.CoreCompileInputs.cache
 D:\Phuong Vy\ManagerStudent\obj\Debug\ManagerStudent.exe
 D:\Phuong Vy\ManagerStudent\obj\Debug\ManagerStudent.pdb
+D:\Phuong Vy\ManagerStudent\obj\Debug\ManagerStudent.GUI.MainForm.resources

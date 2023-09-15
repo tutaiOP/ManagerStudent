@@ -1,0 +1,12 @@
+{
+  "version": "0.2.1",
+  "defaults": {},
+  "configurations": [
+    {
+      "type": "default",
+      "project": "GUI\\LoginForm.Designer.cs",
+      "projectTarget": "",
+      "name": "LoginForm.Designer.cs"
+    }
+  ]
+}
