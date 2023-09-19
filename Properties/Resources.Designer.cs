@@ -73,16 +73,6 @@ namespace ManagerStudent.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap buttonThem {
-            get {
-                object obj = ResourceManager.GetObject("buttonThem", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
         internal static System.Drawing.Bitmap grid_three_up_ {
             get {
                 object obj = ResourceManager.GetObject("grid three up_", resourceCulture);
@@ -93,9 +83,79 @@ namespace ManagerStudent.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap icon__arrow_left_ {
+            get {
+                object obj = ResourceManager.GetObject("icon _arrow left_", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap icon__arrow_right_ {
+            get {
+                object obj = ResourceManager.GetObject("icon _arrow right_", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap icon__book_ {
             get {
                 object obj = ResourceManager.GetObject("icon _book_", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap icon__cloud_upload_ {
+            get {
+                object obj = ResourceManager.GetObject("icon _cloud upload_", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap icon__magnifying_glass_ {
+            get {
+                object obj = ResourceManager.GetObject("icon _magnifying glass_", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap icon__pencil_ {
+            get {
+                object obj = ResourceManager.GetObject("icon _pencil_", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap icon__plus_ {
+            get {
+                object obj = ResourceManager.GetObject("icon _plus_", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap icon__x_letter_ {
+            get {
+                object obj = ResourceManager.GetObject("icon _x letter_", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

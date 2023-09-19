@@ -140,7 +140,28 @@
     <None Include="icon\menu_.png" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="icon\buttonThem.png" />
+    <None Include="icon\icon _plus_.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="icon\icon _cloud upload_.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="icon\icon _pencil_.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="icon\icon _x letter_.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="icon\icon _arrow left_.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="icon\icon _arrow right_.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Connected Services\" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="icon\icon _magnifying glass_.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
