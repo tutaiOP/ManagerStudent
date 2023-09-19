@@ -163,5 +163,8 @@
   <ItemGroup>
     <None Include="icon\icon _magnifying glass_.png" />
   </ItemGroup>
+  <ItemGroup>
+    <Folder Include="NewFolder1\" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
