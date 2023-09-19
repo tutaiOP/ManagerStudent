@@ -61,6 +61,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="GUI\HocSinhForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI\HocSinhForm.Designer.cs">
+      <DependentUpon>HocSinhForm.cs</DependentUpon>
+    </Compile>
     <Compile Include="GUI\MainForm.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -75,6 +81,9 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="GUI\HocSinhForm.resx">
+      <DependentUpon>HocSinhForm.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="GUI\LoginForm.resx">
       <DependentUpon>LoginForm.cs</DependentUpon>
     </EmbeddedResource>
@@ -129,6 +138,33 @@
     <None Include="icon\icon _book_.png" />
     <None Include="icon\grid three up_.png" />
     <None Include="icon\menu_.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="icon\icon _plus_.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="icon\icon _cloud upload_.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="icon\icon _pencil_.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="icon\icon _x letter_.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="icon\icon _arrow left_.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="icon\icon _arrow right_.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Connected Services\" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="icon\icon _magnifying glass_.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="NewFolder1\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
