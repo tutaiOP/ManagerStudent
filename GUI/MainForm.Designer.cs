@@ -52,6 +52,9 @@
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.label1 = new System.Windows.Forms.Label();
             this.panel3 = new System.Windows.Forms.Panel();
+            this.panel2 = new System.Windows.Forms.Panel();
+            this.pictureBox8 = new System.Windows.Forms.PictureBox();
+            this.label7 = new System.Windows.Forms.Label();
             this.panel1.SuspendLayout();
             this.panelDangXuat.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).BeginInit();
@@ -67,11 +70,14 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             this.panelHocSinh.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            this.panel2.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox8)).BeginInit();
             this.SuspendLayout();
             // 
             // panel1
             // 
             this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
+            this.panel1.Controls.Add(this.panel2);
             this.panel1.Controls.Add(this.panelDangXuat);
             this.panel1.Controls.Add(this.panelThongKe);
             this.panel1.Controls.Add(this.panelKetQua);
@@ -81,16 +87,16 @@
             this.panel1.Controls.Add(this.panelHocSinh);
             this.panel1.Location = new System.Drawing.Point(-1, 0);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(124, 885);
+            this.panel1.Size = new System.Drawing.Size(136, 885);
             this.panel1.TabIndex = 0;
             // 
             // panelDangXuat
             // 
             this.panelDangXuat.Controls.Add(this.pictureBox7);
             this.panelDangXuat.Controls.Add(this.label6);
-            this.panelDangXuat.Location = new System.Drawing.Point(0, 735);
+            this.panelDangXuat.Location = new System.Drawing.Point(4, 767);
             this.panelDangXuat.Name = "panelDangXuat";
-            this.panelDangXuat.Size = new System.Drawing.Size(124, 104);
+            this.panelDangXuat.Size = new System.Drawing.Size(132, 104);
             this.panelDangXuat.TabIndex = 8;
             this.panelDangXuat.MouseLeave += new System.EventHandler(this.panelDangXuat_MouseLeave);
             this.panelDangXuat.MouseHover += new System.EventHandler(this.panelDangXuat_MouseHover);
@@ -119,9 +125,9 @@
             // 
             this.panelThongKe.Controls.Add(this.pictureBox6);
             this.panelThongKe.Controls.Add(this.label5);
-            this.panelThongKe.Location = new System.Drawing.Point(1, 625);
+            this.panelThongKe.Location = new System.Drawing.Point(1, 549);
             this.panelThongKe.Name = "panelThongKe";
-            this.panelThongKe.Size = new System.Drawing.Size(123, 104);
+            this.panelThongKe.Size = new System.Drawing.Size(135, 104);
             this.panelThongKe.TabIndex = 7;
             this.panelThongKe.MouseLeave += new System.EventHandler(this.panelThongKe_MouseLeave);
             this.panelThongKe.MouseHover += new System.EventHandler(this.panelThongKe_MouseHover);
@@ -152,9 +158,9 @@
             // 
             this.panelKetQua.Controls.Add(this.pictureBox5);
             this.panelKetQua.Controls.Add(this.label4);
-            this.panelKetQua.Location = new System.Drawing.Point(0, 511);
+            this.panelKetQua.Location = new System.Drawing.Point(0, 439);
             this.panelKetQua.Name = "panelKetQua";
-            this.panelKetQua.Size = new System.Drawing.Size(125, 104);
+            this.panelKetQua.Size = new System.Drawing.Size(136, 104);
             this.panelKetQua.TabIndex = 6;
             this.panelKetQua.MouseLeave += new System.EventHandler(this.panelKetQua_MouseLeave);
             this.panelKetQua.MouseHover += new System.EventHandler(this.panelKetQua_MouseHover);
@@ -185,9 +191,9 @@
             // 
             this.panelDiem.Controls.Add(this.pictureBox4);
             this.panelDiem.Controls.Add(this.label3);
-            this.panelDiem.Location = new System.Drawing.Point(1, 401);
+            this.panelDiem.Location = new System.Drawing.Point(1, 329);
             this.panelDiem.Name = "panelDiem";
-            this.panelDiem.Size = new System.Drawing.Size(123, 104);
+            this.panelDiem.Size = new System.Drawing.Size(135, 104);
             this.panelDiem.TabIndex = 5;
             this.panelDiem.MouseLeave += new System.EventHandler(this.panelDiem_MouseLeave);
             this.panelDiem.MouseHover += new System.EventHandler(this.panelDiem_MouseHover);
@@ -218,9 +224,9 @@
             // 
             this.panelLopKhoi.Controls.Add(this.pictureBox3);
             this.panelLopKhoi.Controls.Add(this.label2);
-            this.panelLopKhoi.Location = new System.Drawing.Point(1, 288);
+            this.panelLopKhoi.Location = new System.Drawing.Point(1, 221);
             this.panelLopKhoi.Name = "panelLopKhoi";
-            this.panelLopKhoi.Size = new System.Drawing.Size(124, 104);
+            this.panelLopKhoi.Size = new System.Drawing.Size(135, 104);
             this.panelLopKhoi.TabIndex = 4;
             this.panelLopKhoi.MouseLeave += new System.EventHandler(this.panelLopKhoi_MouseLeave);
             this.panelLopKhoi.MouseHover += new System.EventHandler(this.panel4_MouseHover);
@@ -252,9 +258,9 @@
             // 
             this.panelGiaoVien.Controls.Add(this.pictureBox2);
             this.panelGiaoVien.Controls.Add(this.labelGiaoVien);
-            this.panelGiaoVien.Location = new System.Drawing.Point(0, 176);
+            this.panelGiaoVien.Location = new System.Drawing.Point(0, 114);
             this.panelGiaoVien.Name = "panelGiaoVien";
-            this.panelGiaoVien.Size = new System.Drawing.Size(125, 104);
+            this.panelGiaoVien.Size = new System.Drawing.Size(136, 104);
             this.panelGiaoVien.TabIndex = 3;
             this.panelGiaoVien.MouseLeave += new System.EventHandler(this.panel2_MouseLeave);
             this.panelGiaoVien.MouseHover += new System.EventHandler(this.panel2_MouseHover_1);
@@ -287,10 +293,11 @@
             // 
             this.panelHocSinh.Controls.Add(this.pictureBox1);
             this.panelHocSinh.Controls.Add(this.label1);
-            this.panelHocSinh.Location = new System.Drawing.Point(0, 60);
+            this.panelHocSinh.Location = new System.Drawing.Point(0, 7);
             this.panelHocSinh.Name = "panelHocSinh";
-            this.panelHocSinh.Size = new System.Drawing.Size(124, 104);
+            this.panelHocSinh.Size = new System.Drawing.Size(136, 104);
             this.panelHocSinh.TabIndex = 0;
+            this.panelHocSinh.Paint += new System.Windows.Forms.PaintEventHandler(this.panelHocSinh_Paint);
             this.panelHocSinh.MouseLeave += new System.EventHandler(this.panelHocSinh_MouseLeave);
             this.panelHocSinh.MouseHover += new System.EventHandler(this.panel2_MouseHover);
             // 
@@ -324,6 +331,36 @@
             this.panel3.Name = "panel3";
             this.panel3.Size = new System.Drawing.Size(1831, 17);
             this.panel3.TabIndex = 1;
+            // 
+            // panel2
+            // 
+            this.panel2.Controls.Add(this.pictureBox8);
+            this.panel2.Controls.Add(this.label7);
+            this.panel2.Location = new System.Drawing.Point(1, 659);
+            this.panel2.Name = "panel2";
+            this.panel2.Size = new System.Drawing.Size(135, 104);
+            this.panel2.TabIndex = 9;
+            // 
+            // pictureBox8
+            // 
+            this.pictureBox8.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox8.Image")));
+            this.pictureBox8.Location = new System.Drawing.Point(28, 13);
+            this.pictureBox8.Name = "pictureBox8";
+            this.pictureBox8.Size = new System.Drawing.Size(70, 55);
+            this.pictureBox8.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox8.TabIndex = 2;
+            this.pictureBox8.TabStop = false;
+            // 
+            // label7
+            // 
+            this.label7.AutoSize = true;
+            this.label7.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label7.Location = new System.Drawing.Point(5, 71);
+            this.label7.Name = "label7";
+            this.label7.Size = new System.Drawing.Size(138, 29);
+            this.label7.TabIndex = 1;
+            this.label7.Text = "Người dùng";
+            this.label7.Click += new System.EventHandler(this.label7_Click);
             // 
             // MainForm
             // 
@@ -359,6 +396,9 @@
             this.panelHocSinh.ResumeLayout(false);
             this.panelHocSinh.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            this.panel2.ResumeLayout(false);
+            this.panel2.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox8)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -388,5 +428,8 @@
         private System.Windows.Forms.Panel panelDangXuat;
         private System.Windows.Forms.PictureBox pictureBox7;
         private System.Windows.Forms.Label label6;
+        private System.Windows.Forms.Panel panel2;
+        private System.Windows.Forms.PictureBox pictureBox8;
+        private System.Windows.Forms.Label label7;
     }
 }

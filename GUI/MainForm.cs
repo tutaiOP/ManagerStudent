@@ -15,6 +15,12 @@ namespace ManagerStudent.GUI
         public MainForm()
         {
             InitializeComponent();
+            this.ClientSize = new System.Drawing.Size(1847, 936);//kich thuoc co dinh
+            this.FormBorderStyle = FormBorderStyle.FixedDialog; //vo hieu hoa kha nang thay doi kich thuoc
+            this.MaximizeBox = false;//vo hieu hoa nut maximize
+            this.MinimizeBox = false;//vo hieu hoa nut minimum
+        
+
         }
 
         private void label1_Click(object sender, EventArgs e)
@@ -186,6 +192,16 @@ namespace ManagerStudent.GUI
         private void pictureBox6_MouseLeave(object sender, EventArgs e)
         {
             panelThongKe.BackColor = Color.FromArgb(128, 255, 128); 
+        }
+
+        private void panelHocSinh_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void label7_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

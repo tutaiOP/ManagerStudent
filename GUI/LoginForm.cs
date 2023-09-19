@@ -38,13 +38,15 @@ namespace ManagerStudent.GUI
         }
 
         private void btnLogin_Click(object sender, EventArgs e)
-        {
-
+        {/*
+            MainForm mainForm = new MainForm();//Chuyen giao dien
+            mainForm.Show();
+            this.Hide();*/
         }
 
         private void btnLogin_MouseHover(object sender, EventArgs e)
         {
-            btnLogin.BackColor = Color.White;
+            btnLogin.BackColor = SystemColors.ButtonHighlight;
         }
 
         private void btnLogin_MouseLeave(object sender, EventArgs e)

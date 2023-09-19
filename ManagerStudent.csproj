@@ -126,7 +126,6 @@
     <None Include="icon\Vector.png" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="GUI\menu_.png" />
     <None Include="icon\icon _book_.png" />
     <None Include="icon\grid three up_.png" />
     <None Include="icon\menu_.png" />
