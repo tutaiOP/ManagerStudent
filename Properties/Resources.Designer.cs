@@ -63,6 +63,26 @@ namespace ManagerStudent.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap _0af3c9613761d2d2394d99312aeba397 {
+            get {
+                object obj = ResourceManager.GetObject("0af3c9613761d2d2394d99312aeba397", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap buttonThem {
+            get {
+                object obj = ResourceManager.GetObject("buttonThem", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap grid_three_up_ {
             get {
                 object obj = ResourceManager.GetObject("grid three up_", resourceCulture);

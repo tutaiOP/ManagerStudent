@@ -7,11 +7,13 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using static System.Windows.Forms.VisualStyles.VisualStyleElement;
 
 namespace ManagerStudent.GUI
 {
     public partial class MainForm : Form
     {
+        private HocSinhForm hocSinhForm;
         public MainForm()
         {
             InitializeComponent();
@@ -19,7 +21,8 @@ namespace ManagerStudent.GUI
             this.FormBorderStyle = FormBorderStyle.FixedDialog; //vo hieu hoa kha nang thay doi kich thuoc
             this.MaximizeBox = false;//vo hieu hoa nut maximize
             this.MinimizeBox = false;//vo hieu hoa nut minimum
-        
+            panelHocSinh.Click += panelHocSinh_Click;
+
 
         }
 
@@ -35,13 +38,15 @@ namespace ManagerStudent.GUI
 
         private void MainForm_MouseLeave(object sender, EventArgs e)
         {
-           // panelHocSinh.BackColor = Color.FromArgb(128, 255, 128);
+            // panelHocSinh.BackColor = Color.FromArgb(128, 255, 128);
         }
+
 
         private void MainForm_Load(object sender, EventArgs e)
         {
 
         }
+
 
         private void pictureBox1_Click(object sender, EventArgs e)
         {
@@ -130,7 +135,7 @@ namespace ManagerStudent.GUI
 
         private void panelHocSinh_MouseLeave(object sender, EventArgs e)
         {
-            panelHocSinh.BackColor = Color.FromArgb(128, 255, 128);
+           // panelHocSinh.BackColor = Color.FromArgb(128, 255, 128);
         }
 
         private void pictureBox1_MouseHover(object sender, EventArgs e)
@@ -161,7 +166,7 @@ namespace ManagerStudent.GUI
 
         private void pictureBox3_MouseLeave(object sender, EventArgs e)
         {
-            panelLopKhoi.BackColor = Color.FromArgb(128, 255, 128); 
+            panelLopKhoi.BackColor = Color.FromArgb(128, 255, 128);
         }
 
         private void pictureBox4_MouseHover(object sender, EventArgs e)
@@ -191,7 +196,7 @@ namespace ManagerStudent.GUI
 
         private void pictureBox6_MouseLeave(object sender, EventArgs e)
         {
-            panelThongKe.BackColor = Color.FromArgb(128, 255, 128); 
+            panelThongKe.BackColor = Color.FromArgb(128, 255, 128);
         }
 
         private void panelHocSinh_Paint(object sender, PaintEventArgs e)
@@ -203,5 +208,53 @@ namespace ManagerStudent.GUI
         {
 
         }
+
+        private void panelNguoiDung_MouseHover(object sender, EventArgs e)
+        {
+            panelNguoiDung.BackColor = SystemColors.ButtonHighlight;
+        }
+
+        private void panelNguoiDung_MouseLeave(object sender, EventArgs e)
+        {
+            panelNguoiDung.BackColor = Color.FromArgb(128, 255, 128);
+        }
+
+        private void panelHocSinh_MouseClick(object sender, MouseEventArgs e)
+        {
+           /* panelHocSinh.BackColor = SystemColors.ButtonHighlight;
+            if (hocSinhForm != null)
+            {
+                hocSinhForm.Dispose();
+            }
+            // Tạo một instance của StudentForm
+            hocSinhForm = new HocSinhForm();
+            // Thiết lập thuộc tính Dock của studentForm để lấp đầy panelRight
+            hocSinhForm.Dock = DockStyle.Fill;
+            // Thêm studentForm vào panelRight
+            hocSinhForm.TopLevel = false;
+            panelRight.Controls.Clear();
+            // panelRight.Controls.Add(hocSinhForm);
+            panelRight.Controls.Add(hocSinhForm);
+            hocSinhForm.Show();*/
+        }
+
+        private void panelHocSinh_Click(object sender, EventArgs e)
+        {
+            panelHocSinh.BackColor = SystemColors.ButtonHighlight;
+            if (hocSinhForm != null)
+            {
+                hocSinhForm.Dispose();
+            }
+            // Tạo một instance của StudentForm
+            hocSinhForm = new HocSinhForm();
+            // Thiết lập thuộc tính Dock của studentForm để lấp đầy panelRight
+            hocSinhForm.Dock = DockStyle.Fill;
+            // Thêm studentForm vào panelRight
+            hocSinhForm.TopLevel = false;
+            panelRight.Controls.Clear();
+            // panelRight.Controls.Add(hocSinhForm);
+            panelRight.Controls.Add(hocSinhForm);
+            hocSinhForm.Show();
+        }
     }
-}
+    }

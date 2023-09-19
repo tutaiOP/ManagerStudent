@@ -9,3 +9,4 @@ D:\Phuong Vy\ManagerStudent\obj\Debug\ManagerStudent.csproj.CoreCompileInputs.ca
 D:\Phuong Vy\ManagerStudent\obj\Debug\ManagerStudent.exe
 D:\Phuong Vy\ManagerStudent\obj\Debug\ManagerStudent.pdb
 D:\Phuong Vy\ManagerStudent\obj\Debug\ManagerStudent.GUI.MainForm.resources
+D:\Phuong Vy\ManagerStudent\obj\Debug\ManagerStudent.GUI.HocSinhForm.resources

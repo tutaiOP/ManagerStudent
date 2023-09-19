@@ -131,13 +131,13 @@
             // 
             // pictureBox1
             // 
-            //this.pictureBox1.Image = global::ManagerStudent.Properties.Resources._0af3c9613761d2d2394d99312aeba397;
-            //this.pictureBox1.Location = new System.Drawing.Point(0, 44);
-           // this.pictureBox1.Name = "pictureBox1";
-           // this.pictureBox1.Size = new System.Drawing.Size(476, 218);
-            //this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
-            //this.pictureBox1.TabIndex = 1;
-            //this.pictureBox1.TabStop = false;
+            this.pictureBox1.Image = global::ManagerStudent.Properties.Resources._0af3c9613761d2d2394d99312aeba397;
+            this.pictureBox1.Location = new System.Drawing.Point(3, 22);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(475, 246);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox1.TabIndex = 9;
+            this.pictureBox1.TabStop = false;
             // 
             // LoginForm
             // 

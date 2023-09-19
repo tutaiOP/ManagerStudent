@@ -30,6 +30,9 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(MainForm));
             this.panel1 = new System.Windows.Forms.Panel();
+            this.panelNguoiDung = new System.Windows.Forms.Panel();
+            this.pictureBox8 = new System.Windows.Forms.PictureBox();
+            this.label7 = new System.Windows.Forms.Label();
             this.panelDangXuat = new System.Windows.Forms.Panel();
             this.pictureBox7 = new System.Windows.Forms.PictureBox();
             this.label6 = new System.Windows.Forms.Label();
@@ -52,10 +55,10 @@
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.label1 = new System.Windows.Forms.Label();
             this.panel3 = new System.Windows.Forms.Panel();
-            this.panel2 = new System.Windows.Forms.Panel();
-            this.pictureBox8 = new System.Windows.Forms.PictureBox();
-            this.label7 = new System.Windows.Forms.Label();
+            this.panelRight = new System.Windows.Forms.Panel();
             this.panel1.SuspendLayout();
+            this.panelNguoiDung.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox8)).BeginInit();
             this.panelDangXuat.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).BeginInit();
             this.panelThongKe.SuspendLayout();
@@ -70,14 +73,12 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             this.panelHocSinh.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
-            this.panel2.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox8)).BeginInit();
             this.SuspendLayout();
             // 
             // panel1
             // 
             this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
-            this.panel1.Controls.Add(this.panel2);
+            this.panel1.Controls.Add(this.panelNguoiDung);
             this.panel1.Controls.Add(this.panelDangXuat);
             this.panel1.Controls.Add(this.panelThongKe);
             this.panel1.Controls.Add(this.panelKetQua);
@@ -89,6 +90,38 @@
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(136, 885);
             this.panel1.TabIndex = 0;
+            // 
+            // panelNguoiDung
+            // 
+            this.panelNguoiDung.Controls.Add(this.pictureBox8);
+            this.panelNguoiDung.Controls.Add(this.label7);
+            this.panelNguoiDung.Location = new System.Drawing.Point(1, 659);
+            this.panelNguoiDung.Name = "panelNguoiDung";
+            this.panelNguoiDung.Size = new System.Drawing.Size(135, 104);
+            this.panelNguoiDung.TabIndex = 9;
+            this.panelNguoiDung.MouseLeave += new System.EventHandler(this.panelNguoiDung_MouseLeave);
+            this.panelNguoiDung.MouseHover += new System.EventHandler(this.panelNguoiDung_MouseHover);
+            // 
+            // pictureBox8
+            // 
+            this.pictureBox8.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox8.Image")));
+            this.pictureBox8.Location = new System.Drawing.Point(28, 13);
+            this.pictureBox8.Name = "pictureBox8";
+            this.pictureBox8.Size = new System.Drawing.Size(70, 55);
+            this.pictureBox8.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox8.TabIndex = 2;
+            this.pictureBox8.TabStop = false;
+            // 
+            // label7
+            // 
+            this.label7.AutoSize = true;
+            this.label7.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label7.Location = new System.Drawing.Point(5, 71);
+            this.label7.Name = "label7";
+            this.label7.Size = new System.Drawing.Size(138, 29);
+            this.label7.TabIndex = 1;
+            this.label7.Text = "Người dùng";
+            this.label7.Click += new System.EventHandler(this.label7_Click);
             // 
             // panelDangXuat
             // 
@@ -297,7 +330,9 @@
             this.panelHocSinh.Name = "panelHocSinh";
             this.panelHocSinh.Size = new System.Drawing.Size(136, 104);
             this.panelHocSinh.TabIndex = 0;
+            this.panelHocSinh.Click += new System.EventHandler(this.panelHocSinh_Click);
             this.panelHocSinh.Paint += new System.Windows.Forms.PaintEventHandler(this.panelHocSinh_Paint);
+            this.panelHocSinh.MouseClick += new System.Windows.Forms.MouseEventHandler(this.panelHocSinh_MouseClick);
             this.panelHocSinh.MouseLeave += new System.EventHandler(this.panelHocSinh_MouseLeave);
             this.panelHocSinh.MouseHover += new System.EventHandler(this.panel2_MouseHover);
             // 
@@ -332,35 +367,12 @@
             this.panel3.Size = new System.Drawing.Size(1831, 17);
             this.panel3.TabIndex = 1;
             // 
-            // panel2
+            // panelRight
             // 
-            this.panel2.Controls.Add(this.pictureBox8);
-            this.panel2.Controls.Add(this.label7);
-            this.panel2.Location = new System.Drawing.Point(1, 659);
-            this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(135, 104);
-            this.panel2.TabIndex = 9;
-            // 
-            // pictureBox8
-            // 
-            this.pictureBox8.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox8.Image")));
-            this.pictureBox8.Location = new System.Drawing.Point(28, 13);
-            this.pictureBox8.Name = "pictureBox8";
-            this.pictureBox8.Size = new System.Drawing.Size(70, 55);
-            this.pictureBox8.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox8.TabIndex = 2;
-            this.pictureBox8.TabStop = false;
-            // 
-            // label7
-            // 
-            this.label7.AutoSize = true;
-            this.label7.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label7.Location = new System.Drawing.Point(5, 71);
-            this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(138, 29);
-            this.label7.TabIndex = 1;
-            this.label7.Text = "Người dùng";
-            this.label7.Click += new System.EventHandler(this.label7_Click);
+            this.panelRight.Location = new System.Drawing.Point(135, 0);
+            this.panelRight.Name = "panelRight";
+            this.panelRight.Size = new System.Drawing.Size(1695, 882);
+            this.panelRight.TabIndex = 2;
             // 
             // MainForm
             // 
@@ -368,13 +380,17 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ButtonHighlight;
             this.ClientSize = new System.Drawing.Size(1831, 897);
+            this.Controls.Add(this.panelRight);
             this.Controls.Add(this.panel3);
             this.Controls.Add(this.panel1);
             this.Name = "MainForm";
-            this.Text = "Form1";
+            this.Text = "Quản lý học sinh";
             this.Load += new System.EventHandler(this.MainForm_Load);
             this.MouseLeave += new System.EventHandler(this.MainForm_MouseLeave);
             this.panel1.ResumeLayout(false);
+            this.panelNguoiDung.ResumeLayout(false);
+            this.panelNguoiDung.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox8)).EndInit();
             this.panelDangXuat.ResumeLayout(false);
             this.panelDangXuat.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).EndInit();
@@ -396,9 +412,6 @@
             this.panelHocSinh.ResumeLayout(false);
             this.panelHocSinh.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
-            this.panel2.ResumeLayout(false);
-            this.panel2.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox8)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -428,8 +441,9 @@
         private System.Windows.Forms.Panel panelDangXuat;
         private System.Windows.Forms.PictureBox pictureBox7;
         private System.Windows.Forms.Label label6;
-        private System.Windows.Forms.Panel panel2;
+        private System.Windows.Forms.Panel panelNguoiDung;
         private System.Windows.Forms.PictureBox pictureBox8;
         private System.Windows.Forms.Label label7;
+        private System.Windows.Forms.Panel panelRight;
     }
 }
