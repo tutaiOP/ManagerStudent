@@ -24,3 +24,4 @@ C:\Users\ADMIN\Documents\GitHub\ManagerStudent\obj\Debug\ManagerStudent.pdb
 =======
 D:\Phuong Vy\ManagerStudent\obj\Debug\ManagerStudent.GUI.HocSinhForm.resources
 >>>>>>> 10e12ee3efecc2a0b9201477d987104e202ff7b1
+C:\Users\ADMIN\Documents\GitHub\ManagerStudent\obj\Debug\ManagerStudent.GUI.HocSinhForm.resources
